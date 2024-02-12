@@ -1,4 +1,5 @@
 {
+  "author": {"name": "Andrei Rosseti", "email": "mdxico@gmail.com"},
   "dependencies": {
     "ws": "^8.16.0"
   }

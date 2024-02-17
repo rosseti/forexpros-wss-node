@@ -1,0 +1,1 @@
+https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe

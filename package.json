@@ -1,6 +1,10 @@
 {
-  "author": {"name": "Andrei Rosseti", "email": "mdxico@gmail.com"},
+  "author": {
+    "name": "Andrei Rosseti",
+    "email": "mdxico@gmail.com"
+  },
   "dependencies": {
+    "csv-writer": "^1.6.0",
     "ws": "^8.16.0"
   }
 }

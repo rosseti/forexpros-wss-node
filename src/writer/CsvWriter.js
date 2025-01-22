@@ -7,8 +7,7 @@ const csvWriter = createObjectCsvWriter({
         { id: 'pid', title: 'PID' },
         { id: 'last', title: 'Last' },
         { id: 'pcp', title: 'PCP' },
-        { id: 'high', title: 'High' },
-        { id: 'low', title: 'Low' },
+        { id: 'color', title: 'Color' }
     ],
 });
 
@@ -16,8 +15,7 @@ class CsvWriter {
     async write({ pid, jsonData }) {
         try {
             const newData = { ...jsonData };
-            newData.high = newData.high.replace(",", '');
-            newData.low = newData.low.replace(",", '');
+            newData.color = newData.pc_col.replace(",", '');
             newData.last = newData.last.replace(",", '');
             await csvWriter.writeRecords([newData]);
         } catch (error) {
